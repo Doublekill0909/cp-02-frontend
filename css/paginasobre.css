@@ -10,9 +10,10 @@
 }
 
 #title {
+    font-size: 25px;
     background-color: #865b99;
     text-align: center;
-    color: azure;
+    color: rgb(0, 253, 253);
 }
 
 .box-background {
