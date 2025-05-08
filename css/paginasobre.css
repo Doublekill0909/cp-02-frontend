@@ -2,12 +2,51 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    color:azure;
+}
+p{
+    word-break: break-all;
+}
+
+a{
+    color:azure;
+    list-style: none;
+}
+
+li{
+    margin: 20px;
+    color:azure;
+    list-style: none;
+}
+
+h1{
+    color: azure;
+}
+
+.logoPrincipal{
+    width: 100px;
+    height: 100px;
+    color: #2c073f;
 }
 
 .member-container {
     display: flex;
     gap: 20px;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c073f;
+    align-items: center;
+}
+
+
 
 #title {
     font-size: 25px;
@@ -16,7 +55,7 @@
     color: rgb(0, 253, 253);
 }
 
-.box-background {
+.body {
     background-color: #865b99;
 }
 
