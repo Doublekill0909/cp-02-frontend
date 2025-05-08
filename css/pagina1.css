@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: azure;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #865b99;
+}
+
+
+.SobreOEvento{
+    width: 80%;
+}
+
+.logoPrincipal{
+    width: 100px;
+    height: 100px;
+    color: #2c073f;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c073f;
+    align-items: center;
+}
+
+.destaques{
+    background-color: #59316c;
+    display: flex;
+    width: 100%;
+}
+
+.card{
+    border: 1px solid black;
+    min-height: 500px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgSobreOEvento{
+    width: 200px;
+    height: 300px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    color:azure;
+}
+p{
+    word-break: break-all;
+}
+
+a{
+    color:azure;
+    list-style: none;
+}
+
+li{
+    margin: 20px;
+    color:azure;
+    list-style: none;
+}
